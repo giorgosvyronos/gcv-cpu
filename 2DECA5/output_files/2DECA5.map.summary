@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Fri Mar 13 16:11:58 2020
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : 2DECA5
+Top-level Entity Name : MU0CPU
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 96
+Total pins : 110
+Total virtual pins : 0
+Total block memory bits : 65,536
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

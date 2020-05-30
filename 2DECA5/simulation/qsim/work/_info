@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dL:/2DECA5/simulation/qsim
+vcontroldecoder
+Z1 !s110 1583511009
+!i10b 1
+!s100 FZ=zc`A?Pk4dIQ<omQA]l0
+IP@4JF`1?bVV@OE^UDRQfP3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1583511007
+Z3 82DECA5.vo
+Z4 F2DECA5.vo
+Z5 L0 32
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1583511009.000000
+Z8 !s107 2DECA5.vo|
+Z9 !s90 -work|work|2DECA5.vo|
+!i113 1
+Z10 o-work work
+vcontroldecoder_vlg_vec_tst
+R1
+!i10b 1
+!s100 PA`nIoUf^R^ei0mnlK@8h2
+I>?0W0>f?2;B11V;=hTo1V0
+R2
+R0
+w1583511005
+Z11 8Waveform2.vwf.vt
+Z12 FWaveform2.vwf.vt
+Z13 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform2.vwf.vt|
+Z14 !s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+vMU0CPU
+!s110 1584115967
+!i10b 1
+!s100 o79H;^_XDb0zBfoLlc?1D2
+IRcZoAh?;_bU[V7ilHkY_i0
+R2
+R0
+w1584115966
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z15 !s108 1584115967.000000
+R8
+R9
+!i113 1
+R10
+n@m@u0@c@p@u
+vMU0CPU_vlg_vec_tst
+!s110 1584115968
+!i10b 1
+!s100 d7M?8`W1GIK7V[EQ1WmQk1
+IZU_1CM;[WPXlU61G5d9hN1
+R2
+R0
+w1584115964
+R11
+R12
+R13
+R6
+r1
+!s85 0
+31
+R15
+!s107 Waveform2.vwf.vt|
+R14
+!i113 1
+R10
+n@m@u0@c@p@u_vlg_vec_tst

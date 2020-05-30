@@ -1,0 +1,37 @@
+# do 2DECA5.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:12:47 on Mar 13,2020
+# vlog -work work 2DECA5.vo 
+# -- Compiling module MU0CPU
+# 
+# Top level modules:
+# 	MU0CPU
+# End time: 16:12:47 on Mar 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:12:47 on Mar 13,2020
+# vlog -work work Waveform2.vwf.vt 
+# -- Compiling module MU0CPU_vlg_vec_tst
+# 
+# Top level modules:
+# 	MU0CPU_vlg_vec_tst
+# End time: 16:12:48 on Mar 13,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.MU0CPU_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 16:12:48 on Mar 13,2020
+# Loading work.MU0CPU_vlg_vec_tst
+# Loading work.MU0CPU
+# Loading altera_ver.dffeas
+# Loading sv_std.std
+# Loading altera_lnsim_ver.generic_m10k
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.common_28nm_ram_block
+# Loading altera_lnsim_ver.common_28nm_ram_register
+# Loading altera_lnsim_ver.common_28nm_ram_pulse_generator
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Note: $finish    : Waveform2.vwf.vt(67)
+#    Time: 1 us  Iteration: 0  Instance: /MU0CPU_vlg_vec_tst
+# End time: 16:12:49 on Mar 13,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

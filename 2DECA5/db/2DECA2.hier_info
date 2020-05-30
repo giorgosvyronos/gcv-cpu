@@ -1,0 +1,53 @@
+|StateMchn
+FETCH <= d[2].DB_MAX_OUTPUT_PORT_TYPE
+CLOCK => LPM_FF:inst1.clock
+EXTRA => StateMachine:inst.E
+EXEC1 <= d[0].DB_MAX_OUTPUT_PORT_TYPE
+EXEC2 <= d[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|StateMchn|converter:inst3
+Q[0] => d.IN1
+Q[0] => d.IN1
+Q[0] => d.IN1
+Q[1] => d.IN0
+Q[1] => d.IN0
+Q[2] => d.IN1
+Q[2] => d.IN1
+d[0] <= d.DB_MAX_OUTPUT_PORT_TYPE
+d[1] <= d.DB_MAX_OUTPUT_PORT_TYPE
+d[2] <= d.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|StateMchn|LPM_FF:inst1
+data[0] => dffs[0].DATAIN
+data[1] => dffs[1].DATAIN
+data[2] => dffs[2].DATAIN
+clock => dffs[2].CLK
+clock => dffs[1].CLK
+clock => dffs[0].CLK
+enable => dffs[2].ENA
+enable => dffs[1].ENA
+enable => dffs[0].ENA
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= dffs[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= dffs[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|StateMchn|StateMachine:inst
+Q[0] => NS.IN1
+Q[0] => NS.IN1
+Q[1] => NS.IN0
+Q[2] => NS.IN1
+E => NS.IN1
+NS[0] <= NS.DB_MAX_OUTPUT_PORT_TYPE
+NS[1] <= NS.DB_MAX_OUTPUT_PORT_TYPE
+NS[2] <= <GND>
+
+

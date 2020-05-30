@@ -1,0 +1,121 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 296 256)
+	(text "ControlPath" (rect 5 0 108 16)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 174 41 188)(font "Arial" ))
+	(port
+		(pt 232 152)
+		(input)
+		(text "SKIPFF" (rect -88 0 -32 16)(font "Arial" (font_size 8)))
+		(text "SKIPFF" (rect 175 144 231 160)(font "Arial" (font_size 8)))
+		(line (pt 216 152)(pt 232 152))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "EQ" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "EQ" (rect 21 27 39 43)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "MI" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "MI" (rect 21 43 39 59)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "CLK" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 59 49 75)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 232 48)
+		(input)
+		(text "dataout[15..0]" (rect -88 0 44 16)(font "Arial" (font_size 8)))
+		(text "dataout[15..0]" (rect 99 40 231 56)(font "Arial" (font_size 8)))
+		(line (pt 216 48)(pt 232 48)(line_width 3))
+	)
+	(port
+		(pt 232 112)
+		(output)
+		(text "PC_OUT[11..0]" (rect -88 0 34 16)(font "Arial" (font_size 8)))
+		(text "PC_OUT[11..0]" (rect 112 104 234 120)(font "Arial" (font_size 8)))
+		(line (pt 232 112)(pt 216 112)(line_width 3))
+	)
+	(port
+		(pt 0 104)
+		(output)
+		(text "EXEC1" (rect 0 0 47 16)(font "Arial" (font_size 8)))
+		(text "EXEC1" (rect 24 96 71 112)(font "Arial" (font_size 8)))
+		(line (pt 16 104)(pt 0 104))
+	)
+	(port
+		(pt 0 88)
+		(output)
+		(text "EXEC2" (rect 0 0 47 16)(font "Arial" (font_size 8)))
+		(text "EXEC2" (rect 24 80 71 96)(font "Arial" (font_size 8)))
+		(line (pt 16 88)(pt 0 88))
+	)
+	(port
+		(pt 0 120)
+		(output)
+		(text "FETCH" (rect 0 0 47 16)(font "Arial" (font_size 8)))
+		(text "FETCH" (rect 24 112 71 128)(font "Arial" (font_size 8)))
+		(line (pt 16 120)(pt 0 120))
+	)
+	(port
+		(pt 0 136)
+		(output)
+		(text "result[15..12]" (rect 0 0 132 16)(font "Arial" (font_size 8)))
+		(text "result[15..12]" (rect 24 128 156 144)(font "Arial" (font_size 8)))
+		(line (pt 16 136)(pt 0 136)(line_width 3))
+	)
+	(port
+		(pt 232 80)
+		(output)
+		(text "wren" (rect -88 0 -51 16)(font "Arial" (font_size 8)))
+		(text "wren" (rect 174 75 211 91)(font "Arial" (font_size 8)))
+		(line (pt 232 80)(pt 216 80))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "INSTR[15..0]" (rect 0 0 113 16)(font "Arial" (font_size 8)))
+		(text "INSTR[15..0]" (rect 24 144 137 160)(font "Arial" (font_size 8)))
+		(line (pt 16 152)(pt 0 152)(line_width 3))
+	)
+	(port
+		(pt 232 32)
+		(output)
+		(text "datain[11..0]" (rect -88 0 34 16)(font "Arial" (font_size 8)))
+		(text "datain[11..0]" (rect 105 27 227 43)(font "Arial" (font_size 8)))
+		(line (pt 232 32)(pt 216 32)(color 128 0 255))
+	)
+	(drawing
+		(rectangle (rect 16 16 216 176))
+	)
+)
