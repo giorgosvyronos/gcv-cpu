@@ -1,5 +1,0 @@
-module combinatonallogicfetch
-(
-input in,
-output out,
-)
