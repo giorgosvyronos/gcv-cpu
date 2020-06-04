@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+int lcong(
+const unsigned int a,
+const unsigned int b,
+const int n,
+const unsigned int s)
+{
+unsigned int y = s;
+unsigned int sum = 0;
+for (int i = n ; i > 0; i--){
+ y = y*a + b // calculate the new pseudo-random number
+ sum = sum + y // add it to the total
+}
+return sum;
+}
+}
