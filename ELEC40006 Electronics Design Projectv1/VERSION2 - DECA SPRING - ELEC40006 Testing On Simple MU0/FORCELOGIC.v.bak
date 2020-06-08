@@ -1,0 +1,20 @@
+module FORCE
+(
+input exec1,
+input [15:0] dataout,
+
+
+output [15:0] ldiout,
+output [15:0] nonldiout,
+output mux_force
+);
+
+wire LDI;
+assign LDI = dataout[3] & ~dataout[2] & ~dataout[1] & ~dataout[0];
+
+assign mux_force = exec1 & LDI;
+assign nonldiout = dataout;
+assign ldiout[11:0] = dataout[11:0];
+assign ldiout[15:12] = 0;
+
+endmodule

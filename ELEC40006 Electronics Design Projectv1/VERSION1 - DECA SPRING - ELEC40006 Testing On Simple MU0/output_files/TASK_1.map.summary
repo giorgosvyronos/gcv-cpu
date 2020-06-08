@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Jun 05 13:13:38 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : TASK_1
+Top-level Entity Name : FBCV_Testing_V1
+Family : Cyclone IV E
+Total logic elements : 142
+    Total combinational functions : 126
+    Dedicated logic registers : 30
+Total registers : 30
+Total pins : 99
+Total virtual pins : 0
+Total memory bits : 65,536
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
