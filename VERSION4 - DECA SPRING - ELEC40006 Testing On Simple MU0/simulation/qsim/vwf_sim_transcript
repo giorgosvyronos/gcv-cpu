@@ -1,0 +1,152 @@
+Determining the location of the ModelSim executable...
+
+Using: C:\intelFPGA\19.1\modelsim_ase\win32aloem
+
+To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
+Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-Altera will be used.
+
+**** Generating the ModelSim Testbench ****
+
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off MU0a -c TASK_1 --vector_source="C:/Users/Vasilis/Desktop/V3 DECA SPRING - ELEC40006 Testing On Simple MU0/Waveform23.vwf" --testbench_file="C:/Users/Vasilis/Desktop/V3 DECA SPRING - ELEC40006 Testing On Simple MU0/simulation/qsim/Waveform23.vwf.vt"
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+    Info: Copyright (C) 2019  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Mon Jun 08 12:39:26 2020
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off MU0a -c TASK_1 --vector_source="C:/Users/Vasilis/Desktop/V3 DECA SPRING - ELEC40006 Testing On Simple MU0/Waveform23.vwf" --testbench_file="C:/Users/Vasilis/Desktop/V3 DECA SPRING - ELEC40006 Testing On Simple MU0/simulation/qsim/Waveform23.vwf.vt"
+Info (119004): Automatically selected device EP4CE6F17C6 for design TASK_1
+Info (119005): Fitting design with smaller device may be possible, but smaller device must be specified
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+
+ctor source file when writing test bench files
+
+U time (on all processors): 00:00:01
+
+Completed successfully. 
+
+Completed successfully. 
+
+**** Generating the functional simulation netlist ****
+
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Vasilis/Desktop/V3 DECA SPRING - ELEC40006 Testing On Simple MU0/simulation/qsim/" MU0a -c TASK_1
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+    Info: Copyright (C) 2019  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Mon Jun 08 12:39:29 2020
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Vasilis/Desktop/V3 DECA SPRING - ELEC40006 Testing On Simple MU0/simulation/qsim/" MU0a -c TASK_1
+Info (119004): Automatically selected device EP4CE6F17C6 for design TASK_1
+Info (119005): Fitting design with smaller device may be possible, but smaller device must be specified
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (204019): Generated file TASK_1.vo in folder "C:/Users/Vasilis/Desktop/V3 DECA SPRING - ELEC40006 Testing On Simple MU0/simulation/qsim//" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 537 megabytes
+    Info: Processing ended: Mon Jun 08 12:39:31 2020
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+Completed successfully. 
+
+**** Generating the ModelSim .do script ****
+
+C:/Users/Vasilis/Desktop/V3 DECA SPRING - ELEC40006 Testing On Simple MU0/simulation/qsim/MU0a.do generated.
+
+Completed successfully. 
+
+**** Running the ModelSim simulation ****
+
+C:/intelFPGA/19.1/modelsim_ase/win32aloem/vsim -c -do MU0a.do
+
+Reading C:/intelFPGA/19.1/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+
+# do MU0a.do
+# ** Warning: (vlib-34) Library already exists at "work".
+
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:39:32 on Jun 08,2020
+# vlog -work work TASK_1.vo 
+# -- Compiling module RND_TESTING_V1
+
+# 
+# Top level modules:
+# 	RND_TESTING_V1
+# End time: 12:39:33 on Jun 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:39:33 on Jun 08,2020
+# vlog -work work Waveform23.vwf.vt 
+# -- Compiling module RND_TESTING_V1_vlg_vec_tst
+
+# 
+# Top level modules:
+# 	RND_TESTING_V1_vlg_vec_tst
+
+# End time: 12:39:33 on Jun 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.RND_TESTING_V1_vlg_vec_tst 
+# Start time: 12:39:33 on Jun 08,2020
+# Loading work.RND_TESTING_V1_vlg_vec_tst
+# Loading work.RND_TESTING_V1
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#25
+
+# ** Note: $finish    : Waveform23.vwf.vt(77)
+#    Time: 1 us  Iteration: 0  Instance: /RND_TESTING_V1_vlg_vec_tst
+
+# End time: 12:39:34 on Jun 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+Completed successfully. 
+
+**** Converting ModelSim VCD to vector waveform ****
+
+Reading C:/Users/Vasilis/Desktop/V3 DECA SPRING - ELEC40006 Testing On Simple MU0/Waveform23.vwf...
+
+Reading C:/Users/Vasilis/Desktop/V3 DECA SPRING - ELEC40006 Testing On Simple MU0/simulation/qsim/MU0a.msim.vcd...
+
+Processing channel transitions... 
+
+Writing the resulting VWF to C:/Users/Vasilis/Desktop/V3 DECA SPRING - ELEC40006 Testing On Simple MU0/simulation/qsim/MU0a_20200608123934.sim.vwf
+
+Finished VCD to VWF conversion.
+
+Completed successfully. 
+
+All completed.

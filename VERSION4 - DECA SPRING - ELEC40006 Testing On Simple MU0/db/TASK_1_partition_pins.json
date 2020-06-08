@@ -1,0 +1,417 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SUM_FINAL_OUT_SLOAD",
+					"strict" : false
+				},
+				{
+					"name" : "STEP_PC_OUT_TEST",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_SELECT_TEST",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_Y_PRIME_SLOAD_TEST",
+					"strict" : false
+				},
+				{
+					"name" : "RND_STATE",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY_OUT_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LOOP_VALUE_OUT_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "LOOP_VALUE_OUT_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "LOOP_VALUE_OUT_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "LOOP_VALUE_OUT_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "LOOP_VALUE_OUT_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LOOP_VALUE_OUT_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LOOP_VALUE_OUT_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LOOP_VALUE_OUT_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LOOP_VALUE_OUT_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LOOP_VALUE_OUT_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LOOP_VALUE_OUT_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LOOP_VALUE_OUT_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MUX_Y_OUT_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SUM_FINAL_OUT_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_OUT_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Y_PRIME_REG_OUT_TEST[0]",
+					"strict" : false
+				},
+				{
+					"name" : "EXEC2",
+					"strict" : false
+				},
+				{
+					"name" : "EXEC1",
+					"strict" : false
+				},
+				{
+					"name" : "RND_CHECK",
+					"strict" : false
+				},
+				{
+					"name" : "KEEP_VALUE",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

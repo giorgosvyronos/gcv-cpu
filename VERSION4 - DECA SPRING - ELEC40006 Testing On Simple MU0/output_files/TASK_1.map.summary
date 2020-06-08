@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Jun 08 13:51:08 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : TASK_1
+Top-level Entity Name : RND_TESTING_V1
+Family : Cyclone IV E
+Total logic elements : 139
+    Total combinational functions : 139
+    Dedicated logic registers : 61
+Total registers : 61
+Total pins : 106
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
