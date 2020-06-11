@@ -1,0 +1,93 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 328 176)
+	(text "RND_DOUBLE_PC" (rect 5 0 113 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 139 24 156)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "MUX_LOOP_SELECT" (rect 0 0 122 19)(font "Intel Clear" (font_size 8)))
+		(text "MUX_LOOP_SELECT" (rect 21 27 143 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "RND_PC_SLOAD" (rect 0 0 100 19)(font "Intel Clear" (font_size 8)))
+		(text "RND_PC_SLOAD" (rect 21 43 121 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "MUX_INITIALV_SELECT" (rect 0 0 140 19)(font "Intel Clear" (font_size 8)))
+		(text "MUX_INITIALV_SELECT" (rect 21 59 161 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "CLOCK" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "CLOCK" (rect 21 75 62 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "RND_PC_CNT_EN" (rect 0 0 107 19)(font "Intel Clear" (font_size 8)))
+		(text "RND_PC_CNT_EN" (rect 21 91 128 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "STEP_PC_SLOAD" (rect 0 0 105 19)(font "Intel Clear" (font_size 8)))
+		(text "STEP_PC_SLOAD" (rect 21 107 126 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "STEP_PC_CNT_EN" (rect 0 0 112 19)(font "Intel Clear" (font_size 8)))
+		(text "STEP_PC_CNT_EN" (rect 21 123 133 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 312 32)
+		(output)
+		(text "LOOP_VALUE[11..0]" (rect 0 0 120 19)(font "Intel Clear" (font_size 8)))
+		(text "LOOP_VALUE[11..0]" (rect 171 27 291 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 312 32)(pt 296 32)(line_width 3))
+	)
+	(port
+		(pt 312 48)
+		(output)
+		(text "STEP_PC_OUT" (rect 0 0 89 19)(font "Intel Clear" (font_size 8)))
+		(text "STEP_PC_OUT" (rect 202 43 291 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 312 48)(pt 296 48))
+	)
+	(drawing
+		(rectangle (rect 16 16 296 144))
+	)
+)

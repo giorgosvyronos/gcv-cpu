@@ -1,0 +1,367 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 312 240 480 256)
+	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
+	(text "CLOCK" (rect 5 0 46 11)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 149 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 384 352 552 368)
+	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
+	(text "EXTRA" (rect 5 0 45 11)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 149 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 408 384 584 400)
+	(text "INPUT" (rect 133 0 162 10)(font "Arial" (font_size 6)))
+	(text "FBCV_STATE" (rect 5 0 78 11)(font "Arial" ))
+	(pt 176 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
+	)
+	(text "VCC" (rect 136 7 157 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 400 312 568 328)
+	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
+	(text "R" (rect 5 0 15 11)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 149 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 1048 152 1224 168)
+	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
+	(text "EXEC1" (rect 90 0 127 11)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1048 176 1224 192)
+	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
+	(text "EXEC2" (rect 90 0 127 11)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 1168 256 1344 272)
+	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
+	(text "FETCH" (rect 90 0 127 11)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 1032 232 1168 312)
+	(text "COMBLOGFETCH" (rect 5 0 98 11)(font "Arial" ))
+	(text "inst" (rect 8 64 26 75)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "in[2..0]" (rect 0 0 33 11)(font "Arial" ))
+		(text "in[2..0]" (rect 21 27 54 38)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "out" (rect 0 0 16 11)(font "Arial" ))
+		(text "out" (rect 95 27 111 38)(font "Arial" ))
+		(line (pt 136 32)(pt 120 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 120 64))
+	)
+)
+(symbol
+	(rect 560 200 744 296)
+	(text "ThreeBitRegister" (rect 5 0 100 13)(font "Arial" (font_size 8)))
+	(text "inst2" (rect 8 78 32 89)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "S[2..0]" (rect 0 0 37 13)(font "Arial" (font_size 8)))
+		(text "S[2..0]" (rect 21 27 58 40)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLK" (rect 0 0 25 13)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 43 46 56)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 184 32)
+		(output)
+		(text "Q[2..0]" (rect 0 0 38 13)(font "Arial" (font_size 8)))
+		(text "Q[2..0]" (rect 97 27 135 40)(font "Arial" (font_size 8)))
+		(line (pt 184 32)(pt 168 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 168 80))
+	)
+)
+(symbol
+	(rect 808 200 992 312)
+	(text "RND_COMBLOGSTATE_VERILOG" (rect 5 0 183 11)(font "Arial" ))
+	(text "inst1" (rect 8 96 32 109)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "in[2..0]" (rect 0 0 33 11)(font "Arial" ))
+		(text "in[2..0]" (rect 21 27 54 38)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "extra" (rect 0 0 27 11)(font "Arial" ))
+		(text "extra" (rect 21 43 48 54)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "R" (rect 0 0 9 11)(font "Arial" ))
+		(text "R" (rect 21 59 30 70)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "FBCV_State" (rect 0 0 62 11)(font "Arial" ))
+		(text "FBCV_State" (rect 21 75 83 86)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 184 32)
+		(output)
+		(text "out[2..0]" (rect 0 0 40 11)(font "Arial" ))
+		(text "out[2..0]" (rect 130 27 170 38)(font "Arial" ))
+		(line (pt 184 32)(pt 168 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 168 96))
+	)
+)
+(connector
+	(pt 776 248)
+	(pt 776 352)
+)
+(connector
+	(pt 808 248)
+	(pt 776 248)
+)
+(connector
+	(pt 776 352)
+	(pt 552 352)
+)
+(connector
+	(pt 552 352)
+	(pt 552 360)
+)
+(connector
+	(pt 1048 160)
+	(pt 784 160)
+)
+(connector
+	(text "Q[0]" (rect 768 194 779 215)(font "Arial" )(vertical))
+	(pt 784 160)
+	(pt 784 232)
+)
+(connector
+	(pt 1000 136)
+	(pt 1000 232)
+	(bus)
+)
+(connector
+	(pt 1048 184)
+	(pt 800 184)
+)
+(connector
+	(text "Q[1]" (rect 774 200 785 221)(font "Arial" )(vertical))
+	(pt 800 184)
+	(pt 800 232)
+)
+(connector
+	(pt 800 232)
+	(pt 808 232)
+	(bus)
+)
+(connector
+	(pt 480 248)
+	(pt 560 248)
+)
+(connector
+	(pt 784 232)
+	(pt 800 232)
+	(bus)
+)
+(connector
+	(pt 1000 136)
+	(pt 544 136)
+	(bus)
+)
+(connector
+	(pt 544 136)
+	(pt 544 232)
+	(bus)
+)
+(connector
+	(pt 560 232)
+	(pt 544 232)
+	(bus)
+)
+(connector
+	(pt 992 232)
+	(pt 1000 232)
+	(bus)
+)
+(connector
+	(pt 1032 264)
+	(pt 1024 264)
+	(bus)
+)
+(connector
+	(pt 1024 264)
+	(pt 1024 320)
+	(bus)
+)
+(connector
+	(pt 744 232)
+	(pt 760 232)
+	(bus)
+)
+(connector
+	(text "Q[2..0]" (rect 744 216 777 227)(font "Arial" ))
+	(pt 760 232)
+	(pt 784 232)
+	(bus)
+)
+(connector
+	(pt 760 232)
+	(pt 760 320)
+	(bus)
+)
+(connector
+	(pt 760 320)
+	(pt 1024 320)
+	(bus)
+)
+(connector
+	(pt 792 376)
+	(pt 600 376)
+)
+(connector
+	(pt 600 376)
+	(pt 600 392)
+)
+(connector
+	(pt 600 392)
+	(pt 584 392)
+)
+(connector
+	(pt 792 376)
+	(pt 792 280)
+)
+(connector
+	(pt 792 280)
+	(pt 808 280)
+)
+(connector
+	(pt 568 320)
+	(pt 752 320)
+)
+(connector
+	(pt 752 264)
+	(pt 808 264)
+)
+(connector
+	(pt 752 264)
+	(pt 752 320)
+)
+(junction (pt 784 232))
+(junction (pt 800 232))
+(junction (pt 760 232))

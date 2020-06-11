@@ -1,0 +1,209 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "AxY[15]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AxY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "KEEPVALUE",
+					"strict" : false
+				},
+				{
+					"name" : "SELECTBIT2MSB",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ValueA[14]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,149 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 352 224)
+	(text "LNK_DECODER" (rect 5 0 81 12)(font "Arial" ))
+	(text "inst" (rect 8 192 20 204)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Exec1" (rect 0 0 24 12)(font "Arial" ))
+		(text "Exec1" (rect 21 27 45 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Exec2" (rect 0 0 25 12)(font "Arial" ))
+		(text "Exec2" (rect 21 43 46 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "LNK_Check" (rect 0 0 51 12)(font "Arial" ))
+		(text "LNK_Check" (rect 21 59 72 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "LNK_Data_A[15..0]" (rect 0 0 82 12)(font "Arial" ))
+		(text "LNK_Data_A[15..0]" (rect 21 75 103 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "Last_Address[11..0]" (rect 0 0 81 12)(font "Arial" ))
+		(text "Last_Address[11..0]" (rect 21 91 102 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "LNK_Data_B[11..0]" (rect 0 0 79 12)(font "Arial" ))
+		(text "LNK_Data_B[11..0]" (rect 21 107 100 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "PC_N_To_Find_Out" (rect 0 0 84 12)(font "Arial" ))
+		(text "PC_N_To_Find_Out" (rect 21 123 105 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "N_To_Find_Out[15..0]" (rect 0 0 89 12)(font "Arial" ))
+		(text "N_To_Find_Out[15..0]" (rect 21 139 110 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 336 32)
+		(output)
+		(text "Keep_Last_Address_Sload" (rect 0 0 113 12)(font "Arial" ))
+		(text "Keep_Last_Address_Sload" (rect 202 27 315 39)(font "Arial" ))
+		(line (pt 336 32)(pt 320 32)(line_width 1))
+	)
+	(port
+		(pt 336 48)
+		(output)
+		(text "MUX_Address_Sel_A_B_AWren" (rect 0 0 143 12)(font "Arial" ))
+		(text "MUX_Address_Sel_A_B_AWren" (rect 172 43 315 55)(font "Arial" ))
+		(line (pt 336 48)(pt 320 48)(line_width 1))
+	)
+	(port
+		(pt 336 64)
+		(output)
+		(text "MUX_Initial_Addr_Select" (rect 0 0 101 12)(font "Arial" ))
+		(text "MUX_Initial_Addr_Select" (rect 214 59 315 71)(font "Arial" ))
+		(line (pt 336 64)(pt 320 64)(line_width 1))
+	)
+	(port
+		(pt 336 80)
+		(output)
+		(text "PC_N_To_Find_Cnt_En" (rect 0 0 102 12)(font "Arial" ))
+		(text "PC_N_To_Find_Cnt_En" (rect 213 75 315 87)(font "Arial" ))
+		(line (pt 336 80)(pt 320 80)(line_width 1))
+	)
+	(port
+		(pt 336 96)
+		(output)
+		(text "PC_N_To_Find_Sload" (rect 0 0 92 12)(font "Arial" ))
+		(text "PC_N_To_Find_Sload" (rect 223 91 315 103)(font "Arial" ))
+		(line (pt 336 96)(pt 320 96)(line_width 1))
+	)
+	(port
+		(pt 336 112)
+		(output)
+		(text "N_To_Find_Reg_Sload" (rect 0 0 96 12)(font "Arial" ))
+		(text "N_To_Find_Reg_Sload" (rect 219 107 315 119)(font "Arial" ))
+		(line (pt 336 112)(pt 320 112)(line_width 1))
+	)
+	(port
+		(pt 336 128)
+		(output)
+		(text "LNK_Address_Result[11..0]" (rect 0 0 115 12)(font "Arial" ))
+		(text "LNK_Address_Result[11..0]" (rect 200 123 315 135)(font "Arial" ))
+		(line (pt 336 128)(pt 320 128)(line_width 3))
+	)
+	(port
+		(pt 336 144)
+		(output)
+		(text "LNK_Result_Reg_En" (rect 0 0 93 12)(font "Arial" ))
+		(text "LNK_Result_Reg_En" (rect 222 139 315 151)(font "Arial" ))
+		(line (pt 336 144)(pt 320 144)(line_width 1))
+	)
+	(port
+		(pt 336 160)
+		(output)
+		(text "LNK_State" (rect 0 0 46 12)(font "Arial" ))
+		(text "LNK_State" (rect 269 155 315 167)(font "Arial" ))
+		(line (pt 336 160)(pt 320 160)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 320 192)(line_width 1))
+	)
+)

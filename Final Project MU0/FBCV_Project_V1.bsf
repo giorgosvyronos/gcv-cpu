@@ -1,0 +1,128 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 448 176)
+	(text "FBCV_Project_V1" (rect 5 0 108 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 139 24 156)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLOCK" (rect 0 0 41 19)(font "Intel Clear" (font_size 8)))
+		(text "CLOCK" (rect 21 27 62 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "FIB_Check" (rect 0 0 61 19)(font "Intel Clear" (font_size 8)))
+		(text "FIB_Check" (rect 21 43 82 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "FBCV_IR_PRIME_12_INPUT[11..0]" (rect 0 0 204 19)(font "Intel Clear" (font_size 8)))
+		(text "FBCV_IR_PRIME_12_INPUT[11..0]" (rect 21 59 225 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "FETCH" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
+		(text "FETCH" (rect 21 75 61 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "EXEC1" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
+		(text "EXEC1" (rect 21 91 59 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "FBCV_DATA_B_READ[15..0]" (rect 0 0 167 19)(font "Intel Clear" (font_size 8)))
+		(text "FBCV_DATA_B_READ[15..0]" (rect 21 107 188 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "EXEC2" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
+		(text "EXEC2" (rect 21 123 59 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 432 32)
+		(output)
+		(text "FBCV_RESULT[15..0]" (rect 0 0 126 19)(font "Intel Clear" (font_size 8)))
+		(text "FBCV_RESULT[15..0]" (rect 285 27 411 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 432 32)(pt 416 32)(line_width 3))
+	)
+	(port
+		(pt 432 48)
+		(output)
+		(text "FBCV_REG_EN" (rect 0 0 87 19)(font "Intel Clear" (font_size 8)))
+		(text "FBCV_REG_EN" (rect 324 43 411 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 432 48)(pt 416 48))
+	)
+	(port
+		(pt 432 64)
+		(output)
+		(text "FBCV_DATA_A_WRITE[15..0]" (rect 0 0 173 19)(font "Intel Clear" (font_size 8)))
+		(text "FBCV_DATA_A_WRITE[15..0]" (rect 238 59 411 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 432 64)(pt 416 64)(line_width 3))
+	)
+	(port
+		(pt 432 80)
+		(output)
+		(text "FBCV_ADDR_A[11..0]" (rect 0 0 128 19)(font "Intel Clear" (font_size 8)))
+		(text "FBCV_ADDR_A[11..0]" (rect 283 75 411 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 432 80)(pt 416 80)(line_width 3))
+	)
+	(port
+		(pt 432 96)
+		(output)
+		(text "FBCV_WRITE_EN_A" (rect 0 0 116 19)(font "Intel Clear" (font_size 8)))
+		(text "FBCV_WRITE_EN_A" (rect 295 91 411 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 432 96)(pt 416 96))
+	)
+	(port
+		(pt 432 112)
+		(output)
+		(text "FBCV_ADDR_B[11..0]" (rect 0 0 128 19)(font "Intel Clear" (font_size 8)))
+		(text "FBCV_ADDR_B[11..0]" (rect 283 107 411 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 432 112)(pt 416 112)(line_width 3))
+	)
+	(port
+		(pt 432 128)
+		(output)
+		(text "FBC_STATE" (rect 0 0 70 19)(font "Intel Clear" (font_size 8)))
+		(text "FBC_STATE" (rect 341 123 411 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 432 128)(pt 416 128))
+	)
+	(drawing
+		(rectangle (rect 16 16 416 144))
+	)
+)
